@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <head>
+        <meta charset=utf-8>
+        <title>My first three.js app</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+            </head> 
+</head>
+
+<header>
+        <div class="container">
+            <nav>
+                <p>Laatu I.T. Maintenance</p>
+                
+                <ul>
+                    <li><a href="#">print</a></li>
+                    <li><a href="#">summary</a></li>
+                </ul>
+            </nav>
+            
+        
+        </div>
+       
+    </header>
+    <header>
+            <p id = "demo">
+        
+            </p>
+            <button onclick = "contactInfo()"> contact us
+        
+            </button>
+            <script> 
+                function contactInfo(){
+                    document.getElementById("demo").innerHTML = "Contact Us Today!";
+                }
+            </script>
+            </header>
+<body>
+    
+    <select id="select">
+        <option value="N/A">Select State</option>
+        <script src="states.js"></script>
+    </select>
+
+    <select id="selects">
+            <script src="installationbase.js"></script>
+    </select>
+    
+    <select id="building" onchange="buildT();">
+            <script src="Building.js"></script>
+    </select>
+
+    <select id="roofs" onchange="rf();", onchange="myFunction();">
+            <!-- <script src="img.js">
+               
+            </script> -->
+             
+            <script src="roofs.js">
+                <button onclick="myFunction()">Click me</button>
+                // <img id="regstyle_prices.png"></img>
+               </script>
+            
+    </select>
+    
+    <!-- <script src="img.js">
+        </script>
+
+    <select id="length" onchange="L();">
+        <script src="length.js"></script>
+    </select>
+    <select id="width" onchange="Wi();"">
+        <script src="width.js"></script>
+    </select>
+    <select id="height" onchange="H();">
+        <script src="height.js"></script>
+    </select>
+
+    <select id="Cost" onchange="buildT();", onchange="rf();", onchange="L();",onchange="Wi();",onchange="H();",onchange="Co();">
+        <script src=cost.js></script>
+    </select> -->
+  <!-- <body> -->
+        
+        <script type = "text/javascipt" src="GLTFLoader.js"></script>
+       
+        <script type="text/javascript" src="bundle.js"></script>
+    
+       <!-- 
+        <img src ="regstyle_prices.png">regstyle_prices</img>
+         -->
+         <!-- <button onclick="myFunction()">Click me</button>
+         <p id="regstyle_prices.png"></p> -->
+         <!-- <img class="resize" src="regstyle_prices.png"/> -->
+        
+    <!-- </body> --> 
+
+</body>
+
+</html>
