@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "three": "^0.107.0",
+    "three-orbitcontrols": "^2.102.2"
+  },
+  "author": "Fernie <fdesantiago820@yahoo.com>"
+}
